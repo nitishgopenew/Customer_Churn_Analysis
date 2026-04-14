@@ -59,31 +59,31 @@ The dataset contains customer-level information including:
 
 ### 🔹 Churn Distribution
 
-![Churn Distribution](images/Churn Distribution.png)
+![Churn Distribution](images/churn_distribution.png)
 
 ---
 
 ### 🔹 Churn by Contract Type
 
-![Contract vs Churn](images/Churn by Contract Type.png)
+![Contract vs Churn](images/contract_vs_churn.png)
 
 ---
 
 ### 🔹 Churn by Tenure Group
 
-![Tenure vs Churn](images/Churn by Tenure Group.png)
+![Tenure vs Churn](images/tenure_vs_churn.png)
 
 ---
 
 ### 🔹 Churn by Monthly Charges
 
-![Charges vs Churn](images/Churn by Monthly Charges.png)
+![Charges vs Churn](images/charges_vs_churn.png)
 
 ---
 
 ### 🔹 Correlation Heatmap
 
-![Correlation Heatmap](images/Correlation Heatmap.png)
+![Correlation Heatmap](images/correlation_heatmap.png)
 
 
 ### Key Analysis Performed:
