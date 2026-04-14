@@ -1,112 +1,124 @@
-# 📉 Customer Churn Analysis & Prediction (Python)
+# 📊 Customer Churn Analysis (Telco Dataset)
 
-## 📌 Overview
+## 🔍 Project Overview
 
-Customer churn is a critical challenge for businesses, as retaining existing customers is often more cost-effective than acquiring new ones.
+This project focuses on analyzing customer churn behavior in a telecom company using Python-based data analytics. The goal is to identify key factors contributing to customer churn and provide actionable business insights.
 
-This project focuses on analyzing customer behavior and building a machine learning model to predict churn, enabling businesses to take proactive retention actions.
+Understanding churn is critical for improving customer retention and maximizing revenue. This project leverages exploratory data analysis (EDA), feature engineering, and visualization techniques to uncover meaningful patterns.
 
 ---
 
 ## 🎯 Objectives
 
-* Analyze customer data to identify churn patterns
-* Understand key factors influencing customer retention
-* Build a predictive model to classify churned customers
-* Provide actionable business insights
+* Analyze customer demographics and service usage
+* Identify factors influencing customer churn
+* Perform data cleaning and preprocessing
+* Create meaningful visualizations
+* Generate actionable business insights
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **Python** (Pandas, NumPy)
-* **Visualization**: Matplotlib, Seaborn
-* **Machine Learning**: Scikit-learn
+* **Python**
+* **Pandas** – Data manipulation
+* **NumPy** – Numerical operations
+* **Matplotlib & Seaborn** – Data visualization
+* **Google Colab / Jupyter Notebook**
 
 ---
 
-## 🔄 Project Workflow
+## 📁 Dataset Information
 
-### 1. Data Preprocessing
+The dataset contains customer-level information including:
 
-* Handling missing values
-* Encoding categorical variables
-* Feature scaling
+* Customer demographics (gender, senior citizen, dependents)
+* Account information (tenure, contract type, billing)
+* Services used (internet, streaming, security, etc.)
+* Financial data (monthly & total charges)
+* Target variable: **Churn (Yes/No)**
 
-### 2. Exploratory Data Analysis (EDA)
+---
 
-* Churn distribution analysis
-* Customer segmentation
+## ⚙️ Data Preprocessing
+
+* Converted `TotalCharges` to numeric format
+* Handled missing values using **group-wise median imputation**
+* Standardized column names for consistency
+* Created new features:
+
+  * `tenure_group`
+  * `charge_group`
+  * `usage_intensity`
+
+---
+
+## 📊 Exploratory Data Analysis
+
+### Key Analysis Performed:
+
+* Univariate analysis (distribution of churn, contract types)
+* Bivariate analysis (churn vs features)
+* Feature-based segmentation
 * Correlation analysis
 
-### 3. Feature Engineering
+---
 
-* Transforming variables
-* Selecting important features
+## 📈 Key Visualizations
 
-### 4. Model Building
-
-* Logistic Regression
-* Random Forest (optional improvement)
-
-### 5. Model Evaluation
-
-* Accuracy
-* Precision & Recall
-* Confusion Matrix
+* Churn distribution
+* Churn vs Contract Type
+* Churn vs Tenure Group
+* Churn vs Monthly Charges
+* Distribution plots (charges, tenure)
+* Correlation heatmap
 
 ---
 
-## 📊 Key Insights
+## 🔥 Key Insights
 
-* Customers with higher monthly charges are more likely to churn
-* Long-term customers show higher retention rates
-* Contract type plays a significant role in churn behavior
-* Customers with short-term contracts are at higher risk
-
----
-
-## 📈 Model Performance
-
-* Accuracy: **XX%**
-* Precision: **XX%**
-* Recall: **XX%**
-
-*(Update these values after training your model)*
+* Customers with **month-to-month contracts** have the highest churn rate
+* **Higher monthly charges** are strongly associated with churn
+* **New customers (low tenure)** are more likely to churn
+* Customers with **long-term contracts are more stable**
+* Senior citizens show slightly higher churn behavior
 
 ---
 
-## 📷 Visualizations
+## 💡 Business Recommendations
 
-* Churn Distribution
-* Monthly Charges vs Churn
-* Contract Type vs Churn
-* Correlation Heatmap
-
----
-
-## 🚀 Business Recommendations
-
-* Offer incentives to high-risk customers
-* Encourage long-term contracts
-* Monitor customers with high monthly charges
-* Improve customer engagement strategies
-
+* Encourage customers to switch to **long-term contracts**
+* Offer incentives for **high monthly charge users**
+* Focus on **early-stage customer retention strategies**
+* Improve services for high-risk churn segments
 
 ---
 
-## 🚀 Skills Demonstrated
+## 🚀 Future Enhancements
 
-* Data Cleaning & Preprocessing
-* Exploratory Data Analysis (EDA)
-* Machine Learning Model Building
-* Model Evaluation & Interpretation
-* Business Insight Generation
+* Build machine learning models (Logistic Regression, Random Forest)
+* Perform feature importance analysis
+* Deploy a churn prediction system
+* Create interactive dashboards (Power BI / Tableau)
+
+---
+
+## 📂 Project Structure
+
+```
+Customer-Churn-Analysis/
+│── Customer_Churn_Analysis.ipynb
+│── Customer Churn.csv
+│── README.md
+```
 
 ---
 
-## 📌 Note
+## 🙌 Author
 
-This project has been recreated and re-uploaded due to temporary loss of access to my previous GitHub account.
-
+**Nitish Gope**
 ---
+
+## ⭐ If you found this useful
+
+Give this repo a ⭐ and feel free to connect!
