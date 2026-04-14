@@ -55,6 +55,37 @@ The dataset contains customer-level information including:
 
 ## 📊 Exploratory Data Analysis
 
+## 📸 Project Screenshots
+
+### 🔹 Churn Distribution
+
+![Churn Distribution](images/churn_distribution.png)
+
+---
+
+### 🔹 Churn by Contract Type
+
+![Contract vs Churn](images/contract_vs_churn.png)
+
+---
+
+### 🔹 Churn by Tenure Group
+
+![Tenure vs Churn](images/tenure_vs_churn.png)
+
+---
+
+### 🔹 Churn by Monthly Charges
+
+![Charges vs Churn](images/charges_vs_churn.png)
+
+---
+
+### 🔹 Correlation Heatmap
+
+![Correlation Heatmap](images/correlation_heatmap.png)
+
+
 ### Key Analysis Performed:
 
 * Univariate analysis (distribution of churn, contract types)
